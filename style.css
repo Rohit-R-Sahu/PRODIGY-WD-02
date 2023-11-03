@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.time {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.laps {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.laps li {
+    font-size: 18px;
+    margin: 5px;
+}
